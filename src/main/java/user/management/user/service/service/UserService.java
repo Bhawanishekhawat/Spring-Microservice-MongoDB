@@ -29,7 +29,7 @@ public class UserService {
 		getUser.setId(id);
 		return userRepo.save(getUser);
 	}
-	 public void deleteUserById	(String id) {
+	 public void deleteUserById(String id) {
 		  userRepo.deleteById(id);
 		 
 	 }
